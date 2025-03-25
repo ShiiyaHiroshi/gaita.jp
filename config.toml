@@ -1,0 +1,61 @@
+baseURL = 'https://example.org/'
+languageCode = 'ja'
+title = 'Gaita Inc.'
+theme = 'ananke'
+sectionPagesMenu = 'main'
+enableRobotsTXT = true
+
+[params]
+author = "Gaita Inc."
+description = "これはGaita Inc.の公式サイトです。"
+background_color_class = "bg-black"
+featured_image_class = "cover bg-top"
+cover_dimming_class = "bg-black-60"
+recent_posts_number = 3
+
+[services.googleAnalytics]
+id = ''
+
+[pagination]
+pagerSize = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[params.ananke.social.share]
+networks = [
+  "email",
+  "facebook",
+  "bluesky",
+  "linkedin"
+]
+
+[params.ananke.social.follow]
+networks = [
+  "facebook",
+  "bluesky",
+  "linkedin",
+  "wikipedia"
+]
+
+[params.ananke.social.facebook]
+username = "patrick.kollitsch"
+# profilelink = "https://www.facebook.com/patrick.kollitsch"
+
+[params.ananke.social.linkedin]
+username = "patrickkollitsch"
+
+[params.ananke.social.bluesky]
+username = "kollitsch.dev"
+
+[params.ananke.social.wikipedia]
+username = "Hugo_(software)"
+
+[params.ananke.social.networks.wikipedia]
+slug = "wikipedia"
+label = "Wikipedia"
+color = "#0645ad"
+profile = "https://en.wikipedia.org/wiki/%s"
+icon = "wikipedia-w"
